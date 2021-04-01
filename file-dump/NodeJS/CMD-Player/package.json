@@ -1,0 +1,22 @@
+{
+  "name": "cmdp",
+  "version": "1.0.0",
+  "description": "CMD player",
+  "main": "cmdp.js",
+  "scripts": {
+    "start1": "node Renderer.js n3.jpg 100 250",
+    "test": "node renderer2.js apple.mp4 150 50"
+  },
+  "author": "Dawid Partyka",
+  "license": "ISC",
+  "dependencies": {
+    "bufferstream": "^0.6.2",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-binaries": "^3.2.2-3",
+    "fluent": "^0.13.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "node-libpng": "^0.2.18",
+    "prompt": "^1.1.0",
+    "tree-kill": "^1.2.2"
+  }
+}

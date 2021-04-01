@@ -1,0 +1,32 @@
+﻿<Window x:Class="Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="512.634" Width="800" Background="#FF535353">
+    <Grid Margin="0,0,0,-31">
+        <Button Content="7" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" RenderTransformOrigin="1.591,5.106" Margin="112,132,0,0" Height="64" Cursor="Hand" FontSize="36" FontWeight="Black" Background="#FF9EB7FB" Click="NumBut"/>
+        <Button Content="8" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" RenderTransformOrigin="1.591,5.106" Margin="221,132,0,0" Height="64" Cursor="Hand" FontSize="36" FontWeight="Black" Background="#FF9EB7FB" Click="NumBut"/>
+        <Button Content="9" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" RenderTransformOrigin="1.591,5.106" Margin="325,132,0,0" Height="64" Cursor="Hand" FontSize="36" FontWeight="Black" Background="#FF9EB7FB" Click="NumBut"/>
+        <Button Content="4" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" RenderTransformOrigin="1.591,5.106" Margin="325,221,0,0" Height="64" Cursor="Hand" FontSize="36" FontWeight="Black" Background="#FF9EB7FB" Click="NumBut"/>
+        <Button Content="5" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" RenderTransformOrigin="1.591,5.106" Margin="221,221,0,0" Height="64" Cursor="Hand" FontSize="36" FontWeight="Black" Background="#FF9EB7FB" Click="NumBut"/>
+        <Button Content="6" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" RenderTransformOrigin="1.591,5.106" Margin="112,221,0,0" Height="64" Cursor="Hand" FontSize="36" FontWeight="Black" Background="#FF9EB7FB" Click="NumBut"/>
+        <Button Content="3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" RenderTransformOrigin="1.591,5.106" Margin="325,313,0,0" Height="64" Cursor="Hand" FontSize="36" FontWeight="Black" Background="#FF9EB7FB" Click="NumBut"/>
+        <Button Content="2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" RenderTransformOrigin="1.591,5.106" Margin="221,313,0,0" Height="64" Cursor="Hand" FontSize="36" FontWeight="Black" Background="#FF9EB7FB" Click="NumBut"/>
+        <Button Content="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" RenderTransformOrigin="1.591,5.106" Margin="112,313,0,0" Height="64" Cursor="Hand" FontSize="36" FontWeight="Black" Background="#FF9EB7FB" Click="NumBut"/>
+        <Rectangle Fill="#FFA5E896" HorizontalAlignment="Left" Height="85" Margin="112,27,0,0" Stroke="Black" VerticalAlignment="Top" Width="396"/>
+        <Button Content="*" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" RenderTransformOrigin="1.591,5.106" Margin="433,132,0,0" Height="64" Cursor="Hand" FontSize="36" FontWeight="Black" Background="#FF9EB7FB" Click="NumBut"/>
+        <Button Content="/" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" RenderTransformOrigin="1.591,5.106" Margin="433,221,0,0" Height="64" Cursor="Hand" FontSize="36" FontWeight="Black" Background="#FF9EB7FB" Click="NumBut"/>
+        <Button Content="-" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" RenderTransformOrigin="1.591,5.106" Margin="433,313,0,0" Height="64" Cursor="Hand" FontSize="36" FontWeight="Black" Background="#FF9EB7FB" Click="NumBut"/>
+        <Button Content="+" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" RenderTransformOrigin="1.591,5.106" Margin="433,399,0,0" Height="64" Cursor="Hand" FontSize="36" FontWeight="Black" Background="#FF9EB7FB" Click="NumBut"/>
+        <Button Content="Clear" HorizontalAlignment="Left" VerticalAlignment="Top" Width="143" RenderTransformOrigin="1.591,5.106" Margin="536,48,0,0" Height="64" Cursor="Hand" FontSize="36" FontWeight="SemiBold" Background="#FF9EB7FB" Click="ClearSelf"/>
+        <Button Content="=" HorizontalAlignment="Left" VerticalAlignment="Top" Width="143" RenderTransformOrigin="1.591,5.106" Margin="536,132,0,0" Height="331" Cursor="Hand" FontSize="36" FontWeight="Black" Background="#FF9EB7FB" Click="Equals"/>
+        <Button Content="0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="184" RenderTransformOrigin="1.591,5.106" Margin="112,399,0,0" Height="64" Cursor="Hand" FontSize="36" FontWeight="Black" Background="#FF9EB7FB" Click="NumBut"/>
+        <Button Content="." HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" RenderTransformOrigin="1.591,5.106" Margin="325,399,0,0" Height="64" Cursor="Hand" FontSize="36" FontWeight="Black" Background="#FF9EB7FB" Click="NumBut"/>
+        <Label x:Name="CalculationScreen" Content="Inicializuję się" HorizontalAlignment="Left" Margin="112,30,0,0" Height="82" Width="396" FontSize="48" FontWeight="Medium" VerticalAlignment="Top"/>
+        <Label x:Name="ErrorsGoHere" Content="" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,-4,0,0" Width="772"/>
+
+    </Grid>
+</Window>
